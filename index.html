@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <link rel='stylesheet' href="style.css">
+   <scripts.js src="func.js"> </scripts.js>
+   <title>Test Task</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+   <!-- 
+ -->
+
+   <div class="header">
+      <div class="header_container">
+         <div class="header_menu">
+
+            <div class="header_menu_text">
+               <div class="header_menu_text_left_submenu">
+                  <div class="header_text">
+                     Контакты
+                  </div>
+                  <div class="header_text">
+                     Доставка
+                  </div>
+                  <div class="header_text">
+                     Блог
+                  </div>
+                  <div class="header_text">
+                     О компании
+                  </div>
+                  <div class="header_text">
+                     Аренда
+                  </div>
+               </div>
+               <div class="header_login">
+                  Вход в кабинет
+               </div>
+            </div>
+         </div>
+         <div class="header_grey_field">
+            <div class="grey_field_container">
+               <div class="container_contacts">
+                  <h3>Textile Place</h3>
+                  <div class="custom-select-wrapper">
+                     <div class="custom-select">
+                        <div class="custom-select__trigger">
+                           <span>38(066)2107008</span>
+                           <div class="arrow_1"></div>
+                        </div>
+                        <div class="custom-options">
+                           <span class="custom-option selected" data-value="tesla">38(077)2107008</span>
+                           <span class="custom-option" data-value="volvo">38(088)2107008</span>
+                           <span class="custom-option" data-value="mercedes">38(099)2107008</span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="search">
+
+                     <input type="text" placeholder="">
+                     <button type="submit">найти</button>
+
+                  </div>
+               </div>
+               <div class="options">
+                  <i class="fa fa-heart"></i>
+                  <i class="fa fa-shopping-cart"></i>
+                  <a class="language">UA</a>
+                  <a>RU</a>
+               </div>
+            </div>
+         </div>
+         <div class="header_menu">
+            <div class="header_menu_text_bottom">
+               <div class="header_text_bottom">
+                  Ткани
+               </div>
+               <div class="header_text_bottom">
+                  Фурнитура
+               </div>
+               <div class="header_text_bottom">
+                  По применению
+               </div>
+               <div class="header_text_bottom">
+                  Акции
+               </div>
+               <div class="header_text_bottom">
+                  Ателье
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   <div class="name_of_page">
+      <a class="name_of_page_way">TEXTILE PLACE &#62; Ткани</a>
+      <h3>Ткани</h3>
+   </div>
+
+   <div class="container_of_items">
+      <div class="menu">
+         <h2 class="fabrics">Ткани</h2>
+         <div class="listOfItems">
+            <ul class="categories">
+               <li>
+                  <div onclick="openSelector()">
+                     <input type="checkbox" class="checkbox" name="fabric">
+                     <label for="fabric">Атласные ткани</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+                  <ul class="sidebar-dropdown">
+                     <li>
+                        <input type="checkbox" class="checkbox" id="fabric-first-1">
+                        <label for="fabric-first-1">Атласные ткани</label>
+                     </li>
+                     <li>
+                        <input type="checkbox" class="checkbox" id="fabric-first-2">
+                        <label for="fabric-first-2">Атласные ткани</label>
+                     </li>
+                     <li>
+                        <input type="checkbox" class="checkbox" id="fabric-first-3">
+                        <label for="fabric-first-3">Атласные ткани</label>
+                     </li>
+                     <li>
+                        <input type="checkbox" class="checkbox" id="fabric-first-4">
+                        <label for="fabric-first-4">Атласные ткани</label>
+                     </li>
+                     <li>
+                        <input type="checkbox" class="checkbox" id="fabric-first-5">
+                        <label for="fabric-first-5">Атласные ткани</label>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <div onclick="openSelector()">
+                     <input type="checkbox" class="checkbox" name="fabric">
+                     <label for="fabric">Рубашечно-блузочные ткани</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+                  <ul class="sidebar-dropdown">
+                     <li>
+                        <input type="checkbox" class="checkbox" id="fabric-second-1">
+                        <label for="fabric-second-1">Атласные ткани</label>
+                     </li>
+                     <li>
+                        <input type="checkbox" class="checkbox" id="fabric-second-2">
+                        <label for="fabric-second-2">Атласные ткани</label>
+                     </li>
+                     <li>
+                        <input type="checkbox" class="checkbox" id="fabric-second-3">
+                        <label for="fabric-second-3">Атласные ткани</label>
+                     </li>
+                     <li>
+                        <input type="checkbox" class="checkbox" id="fabric-second-4">
+                        <label for="fabric-second-4">Атласные ткани</label>
+                     </li>
+                     <li>
+                        <input type="checkbox" class="checkbox" id="fabric-second-5">
+                        <label for="fabric-second-5">Атласные ткани</label>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-3">
+                     <label for="fabric-3">Костюмно-плательные ткани</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-4">
+                     <label for="fabric-4">Жаккардовые ткани</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-4">
+                     <label for="fabric-4">Пальтовые ткани</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-5">
+                     <label for="fabric-5">Курточные ткани</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-6">
+                     <label for="fabric-6">Ворсовые ткани</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-7">
+                     <label for="fabric-7">Коттоновые ткани</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-8">
+                     <label for="fabric-8">Льняные ткани</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-9">
+                     <label for="fabric-9">Кружевные ткани</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-10">
+                     <label for="fabric-10">Подкладочные ткани</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-11">
+                     <label for="fabric-11">Трикотажные ткани</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-12">
+                     <label for="fabric-12">Крепдешин</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-13">
+                     <label for="fabric-13">Шифон</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-14">
+                     <label for="fabric-14">Органза</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-15">
+                     <label for="fabric-15">Сетка</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-16">
+                     <label for="fabric-16">Тафта</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-17">
+                     <label for="fabric-17">Фатин</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-18">
+                     <label for="fabric-18">Кожа</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+               <li>
+                  <div>
+                     <input type="checkbox" class="checkbox" id="fabric-19">
+                     <label for="fabric-19">Мех</label>
+                     <a class="arrow">&#8744;</a>
+                  </div>
+               </li>
+            </ul>
+
+            <div class="listOfItems_2">
+               <h3 class="content"> Состав:</h3>
+               <div class="option">
+                  <input type="checkbox" name="vehicle" id="option4" />
+                  <label for="option4">эластан</label>
+               </div>
+               <div class="option">
+                  <input type="checkbox" name="vehicle" id="option4" />
+                  <label for="option4">полиэстер</label>
+               </div>
+
+               <div class="listOfItems_3">
+                  <h3 class="content"> Ширина</h3>
+                  <div class=list_1>
+                     <input class="numb" type="text" placeholder="от">
+                     <input class="numb" type="text" placeholder="до">
+                     <button class="list-button">OK</button>
+                  </div>
+                  <div class="list_2">
+                     <input value="0" min="0" max="120000" step="500" type="range" />
+                     <input value="120000" min="0" max="120000" step="500" type="range" />
+                     <line x1="4" y1="0" x2="300" y2="0" stroke="#444" stroke-width="12" stroke-dasharray="1 28"></line>
+                  </div>
+               </div>
+
+               <div class="listOfItems_3">
+                  <h3 class="content"> Плотность(Г/М2)</h3>
+                  <div class=list_1>
+                     <input class="numb" type="text" placeholder="от">
+                     <input class="numb" type="text" placeholder="до">
+                     <button class="list-button">OK</button>
+                  </div>
+                  <div class="list_2">
+                     <input value="0" min="0" max="120000" step="500" type="range" />
+                     <input value="120000" min="0" max="120000" step="500" type="range" />
+                     <line x1="4" y1="0" x2="300" y2="0" stroke="#444" stroke-width="12" stroke-dasharray="1 28"></line>
+                  </div>
+               </div>
+
+               <div class="listOfItems_2">
+                  <h3 class="content"> Цвет</h3>
+                  <div class="colors">
+                     <div class="rectangle_1"></div>
+                     <div class="rectangle_2"></div>
+                     <div class="rectangle_3"></div>
+                     <div class="rectangle_4"></div>
+                     <div class="rectangle_5"></div>
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="listOfItems_3">
+               <h3 class="content"> Цена</h3>
+               <div class=list_1>
+                  <input class="numb" type="text" placeholder="от">
+                  <input class="numb" type="text" placeholder="до">
+                  <button class="list-button">OK</button>
+               </div>
+               <div class="list_2">
+                  <input value="0" min="0" max="120000" step="500" type="range" />
+                  <input value="120000" min="0" max="120000" step="500" type="range" />
+                  <line x1="4" y1="0" x2="300" y2="0" stroke="#444" stroke-width="12" stroke-dasharray="1 28"></line>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+
+      <div class="second_part">
+
+         <div class="criterias">
+            <a>Сортировать по:</a>
+            <ul class="criterias_var">
+               <li class="criteria"> &bull; Цена</li>
+               <li class="criteria"> &bull; Рейтинг</li>
+               <li class="criteria"> &bull; Дата добавления</li>
+            </ul>
+         </div>
+
+
+         <img src="image_2.png">
+
+
+         <div class="row_of_three">
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+         <div class="row_of_three">
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+
+         <div class="row_of_three">
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row_of_three">
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row_of_three">
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="product-item">
+               <img src="image.png">
+               <div class="product-list">
+                  <div class="description">
+                     <h3 class="name">Атлас однотонный</h3>
+                     <a class="sz">962/2013</a>
+                     <a>Состав: 97 % SE: 3% EA</a>
+                  </div>
+                  <div class="prices">
+                     <strike class="price_1">90 грн.</strike>
+                     <span class="price_2">80 грн.</span>
+                  </div>
+                  <div class="purchase">
+                     <a class="button">Купить</a>
+                     <div class="row">
+                        <i class="fas fa-cubes"></i>
+                        <a class="sz">Опт</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+         <div class="text_number_of_pages">
+            <h3>Больше товаров</h3>
+            <span class="pages">1 2 3 4 5 6 7 ........ 8 9 </span>
+         </div>
+
+
+      </div>
+   </div>
+   </div>
+
+   <div class="feedback_form">
+      <div class="first_form">
+         <h3>Подпишись чтобы первым узнавать о новинках</h3>
+         <div class="fff">
+            <input class="numb" type="text" placeholder="e-mail">
+            <input class="numb" type="text" placeholder="имя">
+            <button>Отправить</button>
+         </div>
+      </div>
+      <div class="rectangle_green"></div>
+      <div class="second_form">
+         <h3>Аренда торговых площадей</h3>
+         <div class="ggg">
+            <ul>
+               <li class="bottom_text">TEXTILEPLACE</li>
+               <li class="bottom_text">Магазин тканей - 2000 м</li>
+            </ul>
+            <ul>
+               <li class="bottom_text">Киев, ул. Боженко</li>
+               <li class="bottom_text">Info@ludmila.com.ua</li>
+            </ul>
+         </div>
+      </div>
+
+
+   </div>
+
+
+
+
+
+
+
+   <div class="footer">
+      <div class="container">
+         <div class="footer_row">
+            <div class="footer_col">
+               <ul>
+                  <h4>Textile Place</h4>
+                  <li class="green_color">TEXTILEPLACE</li>
+                  <li class="green_color">Магазин тканей - 2000 м</li>
+               </ul>
+            </div>
+
+            <div class="footer_col">
+               <ul>
+                  <li>Контакты</li>
+                  <li>Доставка и оплата</li>
+                  <li>О компании</li>
+                  <li>Аренда</li>
+               </ul>
+            </div>
+
+            <div class="footer_col">
+               <ul>
+                  <li>Ткани</li>
+                  <li>Фурнитура</li>
+                  <li>По приминению</li>
+                  <li>Акции</li>
+                  <li>Ателье</li>
+               </ul>
+            </div>
+
+            <div class="footer_col">
+               <ul>
+                  <li>График работы:</li>
+                  <li class="green_color">
+                     Пн. - Пт. с 9.00 до 18.00
+                  </li>
+                  <li class="green_color">
+                     Сб. - Вс. - ВЫХОДНОЙ
+                  </li>
+               </ul>
+            </div>
+
+            <div class="footer_col">
+               <ul>
+                  <li>Адрес:</li>
+                  <li class="green_color">
+                     г. Киев, ул. Боженко
+                  </li>
+                  <li>Почта:</li>
+                  <li class="green_color">
+                     info@ludmila.com.ua
+                  </li>
+               </ul>
+            </div>
+
+            <div class="footer_col">
+               <ul>
+                  <li>Телефон:</li>
+                  <li class="green_color">
+                     +38 067 191 31 51
+                  </li>
+                  <li>Мы в социальных сетях:</li>
+                  <a href="#" class="social-links">
+                     <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                  </a>
+                  <a href="#" class="social-links">
+                     <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                  <a href="#" class="social-links">
+                     <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+               </ul>
+            </div>
+
+         </div>
+      </div>
+      <div class="rights">
+         <a> © Все права защищены 2021</a>
+      </div>
+
+</body>
+<script>
+   'use strict'
+   function openSelector(p) {
+      event.preventDefault()
+
+      const item = event.target.closest('li');
+      const classesOfParentNode = item.parentNode.className;
+      const isMainSelectorList = classesOfParentNode.includes('categories');
+      if (item && isMainSelectorList) {
+         item.classList.toggle('opened')
+
+         siblings(item).forEach(sibling => {
+            sibling.classList.remove('opened')
+         })
+
+         if (item.classList.contains('opened')) {
+            const toOpen = find(item, '.sidebar-dropdown')
+
+            if (toOpen) {
+               toOpen.classList.add('active')
+            }
+         } else if(isMainSelectorList) {
+            find(item, '.sidebar-dropdown').classList.toggle('active')
+         }
+      }
+   }
+   function $(selector) {
+      return document.querySelector(selector)
+   }
+
+   function find(el, selector) {
+      let finded
+      return (finded = el.querySelector(selector)) ? finded : null
+   }
+
+   $('.custom-select-wrapper').addEventListener('click', function () {
+      this.querySelector('.custom-select').classList.toggle('open');
+   })
+
+
+   function siblings(el) {
+      const siblings = []
+      for (let sibling of el.parentNode.children) {
+         if (sibling !== el) {
+            siblings.push(sibling)
+         }
+      }
+      return siblings
+   }
+
+   
+</script>
+
+
+</html>
